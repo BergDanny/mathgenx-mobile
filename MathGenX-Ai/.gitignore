@@ -1,0 +1,10 @@
+.env
+venv_mathgenx/
+__pycache__/
+*.pyc
+.DS_Store
+experiments/
+logs/
+start_server.sh
+CLAUDE.md
+test/

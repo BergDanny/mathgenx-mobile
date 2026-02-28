@@ -1,0 +1,65 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Dependencies
+node_modules
+vendor
+
+# Build artifacts
+mathgenx-web/dist
+mathgenx-web/node_modules
+public/build
+public/hot
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.docker.example
+.env.backup
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache
+storage/framework/cache/*
+!storage/framework/cache/.gitkeep
+storage/framework/sessions/*
+!storage/framework/sessions/.gitkeep
+storage/framework/views/*
+!storage/framework/views/.gitkeep
+
+# Testing
+.phpunit.result.cache
+coverage
+tests/.phpunit.cache
+
+# Documentation
+README.md
+README-ai-project.md
+DEPLOYMENT.md
+CLAUDE.md
+
+# Scripts (not needed in container)
+scripts/
+

@@ -1,0 +1,39 @@
+{
+  "Visual": {
+    "hint_style": "Provide visual/spatial hints. Describe positions, arrangements, or spatial relationships. Use phrases like 'Imagine the numbers arranged...', 'Picture this scenario...', 'Think about the position of...'. Guide them to visualize the problem spatially.",
+    "explanation_style": "Explain concepts using spatial and visual descriptions. Describe how elements relate to each other in space or arrangement. Use visual metaphors and spatial analogies. Avoid abstract concepts - make it visualizable.",
+    "step_by_step_style": "Break down the solution into visual steps. Describe each step in terms of spatial relationships, positions, or arrangements. Guide them to 'see' each step visually. Use phrases like 'First, visualize...', 'Next, imagine the arrangement...', 'Now picture how these relate...'",
+    "general_instruction": "When helping Visual learners, always frame explanations in terms of spatial relationships, positions, arrangements, or visualizable scenarios. Help them 'see' the problem and solution mentally."
+  },
+  "Read": {
+    "hint_style": "Provide text-based hints with clear definitions, rules, or structured information. Use formal language and written instructions. Reference mathematical rules or definitions. Guide them through written logical steps.",
+    "explanation_style": "Explain using formal definitions, mathematical rules, and structured text. Use precise terminology and written explanations. Reference formulas, rules, or definitions. Present information in a clear, organized text format.",
+    "step_by_step_style": "Provide step-by-step written instructions. Use numbered or bulleted lists. Write out each step clearly with definitions and rules. Format as structured text that can be read and followed sequentially.",
+    "general_instruction": "When helping Read learners, use formal written language, definitions, rules, and structured text. Present information in a clear, organized written format that they can read and process."
+  },
+  "Auditory": {
+    "hint_style": "Provide hints using conversational language, dialogue, or spoken context. Frame hints as if explaining verbally. Use phrases like 'Think about it this way...', 'Imagine someone telling you...', 'Consider this conversation...'",
+    "explanation_style": "Explain concepts using conversational language and verbal descriptions. Use dialogue or spoken examples. Frame explanations as if having a conversation. Use verbal cues and spoken instructions.",
+    "step_by_step_style": "Guide through steps using conversational, verbal instructions. Frame each step as if explaining verbally. Use phrases like 'First, let's talk about...', 'Now, imagine someone saying...', 'Next, think of it like this conversation...'",
+    "general_instruction": "When helping Auditory learners, use conversational language, dialogue, and verbal descriptions. Frame explanations as if speaking to them or having a conversation. Make it sound natural and spoken."
+  },
+  "Kinesthetic": {
+    "hint_style": "Provide hints involving physical actions or hands-on activities. Describe actions like 'Imagine you are...', 'Think about physically doing...', 'Picture yourself...'. Guide them to think about the physical process.",
+    "explanation_style": "Explain concepts using physical actions, movements, or hands-on activities. Describe how to physically manipulate or interact with the problem. Use action verbs and physical metaphors.",
+    "step_by_step_style": "Break down the solution into physical steps or actions. Describe each step as a physical action. Use phrases like 'First, physically...', 'Next, imagine doing...', 'Now, act out...'. Guide them through hands-on steps.",
+    "general_instruction": "When helping Kinesthetic learners, always frame explanations in terms of physical actions, movements, or hands-on activities. Help them understand through doing or imagining physical processes."
+  },
+  "intent_detection": {
+    "hint_keywords": ["hint", "clue", "tip", "help me start", "don't know how to begin", "stuck", "petunjuk", "bantuan", "bagaimana nak mula", "tak tahu macam mana"],
+    "explanation_keywords": ["explain", "why", "what does this mean", "understand", "concept", "terangkan", "kenapa", "apa maksud", "faham", "konsep"],
+    "step_by_step_keywords": ["show me steps", "how to solve", "walk me through", "step by step", "tunjukkan langkah", "bagaimana nak selesaikan", "bimbing saya", "langkah demi langkah"]
+  },
+  "response_guidelines": {
+    "do_not_give_away_answer": "Never directly provide the final answer. Guide the student to discover it themselves through hints, explanations, or step-by-step guidance.",
+    "be_encouraging": "Use encouraging language. Acknowledge their effort and guide them positively.",
+    "adapt_to_intent": "Adapt your response style based on what the student is asking for: hints for stuck students, explanations for confused students, step-by-step for those who need guidance.",
+    "use_dskp_context": "Always reference DSKP context to ensure your help aligns with curriculum standards and mastery levels.",
+    "maintain_conversation_context": "Remember previous messages in the conversation to provide coherent, context-aware responses."
+  }
+}
+

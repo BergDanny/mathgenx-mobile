@@ -1,0 +1,79 @@
+code,example,question_code,question_text,calculation_step,answer,learning_type,criteria_id,mastery_id
+1,Suhu,111RTP101,Suhu di Cameron Highlands ialah -2°C manakala di Kuala Lumpur ialah +5°C. Bandar manakah lebih sejuk?,Bandar dengan suhu lebih rendah adalah lebih sejuk.,Cameron Highlands,R,1.1.1,TP1
+2,Lif,111RTP102,Lif berada di tingkat -1 dan -3. Aras tanah ialah 0. Tingkat manakah lebih dekat dengan aras tanah?,Bandingkan jarak ke 0: |-1| < |-3|.,-1,R,1.1.1,TP1
+3,Akaun bank,111RTP103,Akaun bank Ali menunjukkan -RM10 manakala akaun Abu menunjukkan +RM3. Siapakah mempunyai lebih banyak wang?,Nilai positif menunjukkan baki; nilai negatif menunjukkan hutang.,Abu,R,1.1.1,TP1
+4,Skor permainan,111RTP104,"Skor pasukan: Merah -2, Biru +1. Pasukan manakah mendahului?",Skor positif lebih tinggi daripada skor negatif.,Biru,R,1.1.1,TP1
+5,Ketinggian,111RTP105,"Ketinggian dua lokasi: Gunung +120 m, Gua -40 m. Lokasi manakah di bawah aras laut?",Nilai negatif berada di bawah aras rujukan.,Gua,R,1.1.1,TP1
+6,Suhu,111RTP206,Suhu pagi -1°C dan tengah hari +2°C. Yang manakah lebih hampir kepada 0°C?,"Bandingkan jarak: |-1|=1, |+2|=2 → -1°C lebih hampir.",-1°C,R,1.1.1,TP2
+7,Paras air,111RTP207,Paras air sungai turun 3 m di bawah paras normal. Nyatakan integer yang mewakili keadaan tersebut.,Turun di bawah aras normal ⇒ nombor negatif.,-3,R,1.1.1,TP2
+8,E-wallet,111RTP208,Baki e-wallet menunjukkan -RM5 daripada 0. Apakah maksud nilai -RM5?,Tanda '-' menunjukkan hutang sebanyak RM5.,Hutang RM5,R,1.1.1,TP2
+9,Perlumbaan,111RTP209,"Perlumbaan: Amir -2 mata, Bala 0 mata, Chia +3 mata. Susun daripada terakhir ke pertama.",Lebih negatif → lebih rendah; lebih positif → lebih tinggi.,"Amir, Bala, Chia",R,1.1.1,TP2
+10,Lif,111RTP210,"Aras lif: -5, -1, +4. Penumpang dari -5 mahu ke +4. Berapa tingkat perlu dilalui?",Kira beza: +4 - (-5) = 9.,9 tingkat,R,1.1.1,TP2
+11,Suhu,111RTP311,"Suhu bandar: A=-3°C, B=+2°C, C=-1°C. Bandar manakah paling panas?",Nilai paling positif menunjukkan suhu paling tinggi.,B,R,1.1.1,TP3
+12,Akaun bank,111RTP312,"Dalam tiga akaun pelanggan dicatat: -RM2, -RM10, +RM4. Akaun manakah paling rugi?",Lebih negatif bermaksud hutang lebih banyak.,-RM 10.00,R,1.1.1,TP3
+13,Ketinggian,111RTP313,Gunung pada +4095 m dan dasar laut pada -2000 m. Nyatakan perbezaan ketinggian antara kedua-duanya.,Beza = 4095 - (-2000) = 6095.,6095 m,R,1.1.1,TP3
+14,Skor ujian,111RTP314,"Skor pelajar: -3, +5, 0. Skor manakah menunjukkan prestasi sederhana?",Skor 0 bermaksud tiada penambahan atau pengurangan.,0,R,1.1.1,TP3
+15,Permainan,111RTP315,"Dalam permainan, pemain A di -2 dan pemain B di -1. Siapa lebih hampir kepada skor positif?",Bandingkan jarak ke 0: |-1| < |-2|.,Pemain B,R,1.1.1,TP3
+16,Suhu,111RTP416,"Dalam laporan cuaca, suhu minimum -8°C dan maksimum +5°C. Berapakah beza suhu antara maksimum dan minimum?",Kira: +5 - (-8) = 13.,13°C,R,1.1.1,TP4
+17,Kedalaman,111RTP417,Sebuah kapal selam menyelam ke -200 m dan kemudian naik ke -50 m. Berapa perubahan ketinggian kapal itu?,Perubahan = -50 - (-200) = +150.,Naik 150 m,R,1.1.1,TP4
+18,Akaun bank,111RTP418,Baki akaun pada hari Isnin ialah +RM15 dan pada hari Selasa ialah -RM5. Pada hari manakah akaun berhutang?,Nilai negatif menandakan hutang.,Selasa,R,1.1.1,TP4
+19,Suhu,111RTP419,Suhu di puncak gunung -3°C dan di kaki gunung +9°C. Nyatakan perbezaan suhu antara puncak dan kaki.,Beza = +9 - (-3) = 12.,12°C,R,1.1.1,TP4
+20,Pergerakan,111RTP420,Robot bergerak dari 0 ke -4 kemudian ke +3. Apakah kedudukan akhir robot?,0 - 4 + 3 = -1.,-1,R,1.1.1,TP4
+21,Ketinggian,111RTP521,"Ali bermula pada 0 m, turun 6 m ke gua, kemudian naik semula 2 m. Apakah kedudukan akhir Ali berbanding 0 m?",0 - 6 + 2 = -4.,-4 m,R,1.1.1,TP5
+22,Suhu,111RTP522,"Suhu peti sejuk ialah -2°C. Selepas dibuka lama, suhu meningkat 5°C. Apakah suhu akhir?",-2 + 5 = +3.,+3°C,R,1.1.1,TP5
+23,E-wallet,111RTP523,"Baki awal e-wallet ialah +RM10. Selepas membeli barang RM12, nyatakan baki akhir sebagai integer bertanda.",+10 - 12 = -2.,-RM 2.00,R,1.1.1,TP5
+24,Paras air,111RTP524,Paras sungai pada pagi ialah -3 m dan pada petang ialah +2 m. Berapakah perubahan paras air?,+2 - (-3) = +5.,+5 m,R,1.1.1,TP5
+25,Skor permainan,111RTP525,"Seorang pemain kehilangan 5 mata, kemudian mendapat 7 mata. Apakah skor akhir jika bermula dari sifar?",0 - 5 + 7 = +2.,2,R,1.1.1,TP5
+26,Suhu,111RTP626,"Zon suhu: Artik -25°C, Tropika +30°C, Gurun +45°C. Zon manakah paling sejuk dan berapa beza dengan zon paling panas?",Beza = 45 - (-25) = 70.,"Artik, beza 70°C",R,1.1.1,TP6
+27,Kedalaman,111RTP627,"Seorang penyelam turun 20 m (−20 m), naik 5 m, kemudian turun lagi 3 m. Nyatakan kedalaman akhir.",-20 + 5 - 3 = -18.,-18 m,R,1.1.1,TP6
+28,Ekonomi,111RTP628,"Prestasi syarikat: Isnin +RM8, Selasa -RM5. Hari manakah lebih baik dan berapa beza?",Beza = 8 - (-5) = 13.,"Isnin, beza RM13",R,1.1.1,TP6
+29,Ketinggian,111RTP629,"Ketinggian tiga lokasi: A +250 m, B +400 m, C -50 m. Susun daripada paling rendah ke paling tinggi.",-50 < +250 < +400.,"C, A, B",R,1.1.1,TP6
+30,Suhu,111RTP630,"Sampel suhu makmal: X -8°C, Y -2°C, Z +1°C. Yang manakah paling hampir dengan 0°C?",Bandingkan jarak: |-2| = 2 paling kecil.,Y,R,1.1.1,TP6
+31,Suhu,111VTP131,Nyatakan nombor yang lebih besar antara -3°C dan +4°C.,Bandingkan pada garis nombor/termometer; nilai di kanan sifar lebih besar.,4,V,1.1.1,TP1
+32,Aras laut,111VTP132,Yang manakah lebih tinggi relatif kepada aras laut: -6 m atau +2 m?,"Nilai positif berada di atas aras laut, jadi lebih tinggi.",2,V,1.1.1,TP1
+33,Akaun bank,111VTP133,Akaun mana yang lebih banyak wang: -RM15 atau +RM5?,Nilai positif menunjukkan baki; negatif menunjukkan hutang.,RM 5.00,V,1.1.1,TP1
+34,Lif,111VTP134,Lif berada di tingkat -2 dan +1. Mana lebih hampir ke tingkat 0 ke atas?,"Antara -2 dan +1, +1 berada di atas 0.",1,V,1.1.1,TP1
+35,Skor permainan,111VTP135,Pemain A mempunyai -4 mata dan Pemain B +3 mata. Siapa di hadapan?,Skor positif lebih tinggi daripada skor negatif.,Pemain B,V,1.1.1,TP1
+36,Garis nombor,111VTP236,Yang manakah lebih dekat dengan sifar: -1 atau +1?,Jarak ke sifar sama; kedua-duanya 1 unit dari 0.,Kedua-dua sama,V,1.1.1,TP2
+37,Ketinggian,111VTP237,Tentukan yang mempunyai nilai negatif: +800 m (gunung) atau -120 m (gua).,Nilai di bawah aras rujukan (gua) adalah negatif.,-120 m,V,1.1.1,TP2
+38,Akaun bank,111VTP238,Yang manakah menunjukkan hutang: +RM12 atau -RM7?,Jumlah dengan tanda '-' ialah hutang.,-RM 7.00,V,1.1.1,TP2
+39,Suhu beku,111VTP239,"Pilih semua suhu di bawah 0°C: -5°C, -1°C, +2°C.",Suhu kurang daripada 0 ialah -5°C dan -1°C.,"-5°C, -1°C",V,1.1.1,TP2
+40,Tangga,111VTP240,Nyatakan pergerakan yang mewakili nombor positif: turun 3 (-3) atau naik 2 (+2)?,Pergerakan naik dari aras rujukan adalah positif.,2,V,1.1.1,TP2
+41,Suhu bandar,111VTP341,"Susun suhu daripada paling sejuk ke paling panas: A=-4°C, B=+1°C, C=-2°C.",Lebih kecil bermaksud lebih sejuk: -4 < -2 < +1.,"A, C, B",V,1.1.1,TP3
+42,Aras,111VTP342,"Nyatakan tertib menaik bagi P=+5 m, Q=-3 m, R=0 m.",Tertib menaik: -3 < 0 < +5.,"Q, R, P",V,1.1.1,TP3
+43,Akaun bank,111VTP343,"Siapakah mempunyai baki kedua terbanyak? Amir -RM2, Bala +RM4, Chia -RM1.","Susun: -2, -1, +4 ⇒ kedua terbanyak ialah -1 (Chia).",Chia,V,1.1.1,TP3
+44,Garis nombor,111VTP344,"Antara -1 dan 0, yang manakah lebih besar?",0 lebih besar daripada -1 kerana berada di kanan pada garis nombor.,0,V,1.1.1,TP3
+45,Suhu harian,111VTP345,"Antara Pagi -2°C dan Malam -1°C, yang manakah lebih panas?",-1°C lebih besar daripada -2°C.,Malam,V,1.1.1,TP3
+46,Lif,111VTP446,Yang manakah lebih jauh dari aras 0: naik 4 (+4) atau turun 6 (-6)?,"Bandingkan nilai mutlak: |+4|=4, |-6|=6 ⇒ -6 lebih jauh.",-6,V,1.1.1,TP4
+47,Suhu,111VTP447,Wakilkan perubahan dari 0°C ke -7°C sebagai integer bertanda.,Turun 7 darjah dari sifar ⇒ -7.,-7,V,1.1.1,TP4
+48,Aras laut,111VTP448,Tasik terletak 3 m di bawah aras laut. Tulis integernya.,Di bawah aras rujukan ⇒ -3.,-3,V,1.1.1,TP4
+49,Kredit prabayar,111VTP449,Baki kredit berkurang RM8 daripada 0. Wakilkan sebagai nombor bertanda.,Kekurangan dari sifar ke bawah ⇒ -8.,-8,V,1.1.1,TP4
+50,Suhu peralatan,111VTP450,"Antara peti sejuk +2°C dan peti beku -10°C, yang manakah lebih besar?","+2°C berada di atas 0, lebih besar daripada -10°C.",+2°C,V,1.1.1,TP4
+51,Pendakian,111VTP551,"Mula di 0 m, naik 5 m, kemudian turun 9 m. Tentukan kedudukan akhir.",0 + 5 - 9 = -4.,-4 m,V,1.1.1,TP5
+52,E-wallet,111VTP552,"Baki +RM6, belanja RM9. Apakah integer untuk baki baharu?",+6 - 9 = -3.,-RM 3.00,V,1.1.1,TP5
+53,Suhu bandar,111VTP553,Bandingkan -2°C ke +1°C: yang manakah lebih panas sekarang dan berapa beza?,+1°C lebih besar; beza 3°C.,"+1°C, beza 3°C",V,1.1.1,TP5
+54,Penyelam,111VTP554,"Antara -18 m dan -5 m, yang manakah lebih dekat ke permukaan?",-5 lebih hampir kepada 0.,-5 m,V,1.1.1,TP5
+55,Skor permainan,111VTP555,"Skor: mula 0, kehilangan 7, kemudian tambah 3. Apakah skor akhir dan tandanya?",0 - 7 + 3 = -4 ⇒ negatif.,-4 (negatif),V,1.1.1,TP5
+56,Indeks sejuk,111VTP656,"Indeks sejuk < 0 dianggap ekstrem. Pilih semua yang ekstrem: -12, -3, +5.",Ekstrem sejuk < 0 ⇒ -12 dan -3; +5 tidak.,"-12, -3",V,1.1.1,TP6
+57,Ekonomi,111VTP657,"Hari 1: +RM4 (untung), Hari 2: -RM9 (rugi). Hari mana lebih baik?",Nilai positif melebihi sifar ⇒ +RM4 lebih baik.,Hari 1 (+RM4),V,1.1.1,TP6
+58,Landskap,111VTP658,"Susun daripada paling rendah ke paling tinggi: Bukit A +60 m, Terowong B -15 m, Jambatan C +5 m.","Paling rendah -15, kemudian +5, kemudian +60.","B, C, A",V,1.1.1,TP6
+59,Makmal,111VTP659,"Sampel X -18°C, Y -22°C. Sampel mana lebih hangat dan berapa beza?",-18 lebih besar (lebih hangat); beza 4°C.,"X, beza 4°C",V,1.1.1,TP6
+60,Stok sejuk beku,111VTP660,"Had selamat -15°C; rak menunjukkan -12°C, -17°C, -15°C. Pilih semua yang TIDAK selamat.","Tidak selamat jika > -15°C ⇒ -12°C; -15°C had (selamat), -17°C lebih sejuk (selamat).",-12°C,V,1.1.1,TP6
+61,Perbezaan suhu,111RTP106,Suhu di Genting Highlands ialah -1°C manakala di Johor Bahru ialah +8°C. Bandar manakah lebih panas?,Nilai positif lebih tinggi daripada negatif.,Johor Bahru,R,1.1.1,TP1
+62,Kedudukan,111RTP107,"Kedudukan dua lokasi: Bangunan +15 m, Terowong -8 m. Lokasi manakah di atas aras tanah?",Nilai positif berada di atas aras rujukan.,Bangunan,R,1.1.1,TP1
+63,Baki,111RTP108,"Baki dua akaun: Akaun A -RM7, Akaun B +RM2. Akaun manakah menunjukkan hutang?",Nilai negatif menunjukkan hutang.,Akaun A,R,1.1.1,TP1
+64,Perubahan suhu,111RTP211,Suhu turun 4°C dari 0°C. Nyatakan suhu baharu sebagai integer bertanda.,Turun dari sifar ⇒ nombor negatif.,-4°C,R,1.1.1,TP2
+65,Paras,111RTP212,Paras air naik 2 m dari paras normal (0 m). Nyatakan integer yang mewakili keadaan tersebut.,Naik dari aras normal ⇒ nombor positif.,2,R,1.1.1,TP2
+66,Skor,111RTP213,"Skor tiga pemain: Ahmad -1, Bakar +2, Chong 0. Siapakah mempunyai skor tertinggi?",Nilai paling positif adalah tertinggi.,Bakar,R,1.1.1,TP2
+67,Perbandingan,111RTP316,"Bandingkan tiga suhu: -5°C, -2°C, +1°C. Yang manakah paling sejuk?",Nilai paling negatif adalah paling sejuk.,-5°C,R,1.1.1,TP3
+68,Perbezaan,111RTP317,Perbezaan antara +12 dan -8 adalah?,Kira beza: +12 - (-8) = 20.,20,R,1.1.1,TP3
+69,Susunan,111RTP318,"Susun daripada paling kecil ke paling besar: -4, +1, -1, 0.",Susun: -4 < -1 < 0 < +1.,"-4, -1, 0, +1",R,1.1.1,TP3
+70,Operasi,111RTP421,Hitung: -6 + 10 - 3.,Kira: -6 + 10 - 3 = +1.,1,R,1.1.1,TP4
+71,Perubahan,111RTP422,Suhu berubah dari -5°C ke +3°C. Berapakah perubahan suhu?,Perubahan = +3 - (-5) = +8.,+8°C,R,1.1.1,TP4
+72,Kedudukan akhir,111RTP423,"Bermula dari -3, naik 7, kemudian turun 2. Apakah kedudukan akhir?",-3 + 7 - 2 = +2.,2,R,1.1.1,TP4
+73,Operasi kompleks,111RTP526,Hitung: -8 + 12 - 5 + 3.,Kira: -8 + 12 - 5 + 3 = +2.,2,R,1.1.1,TP5
+74,Perubahan berturutan,111RTP527,"Suhu mula -4°C, naik 6°C, kemudian turun 2°C. Apakah suhu akhir?",-4 + 6 - 2 = 0.,0°C,R,1.1.1,TP5
+75,Baki akhir,111RTP528,"Baki awal -RM6, tambah RM15, kemudian tolak RM4. Apakah baki akhir?",-6 + 15 - 4 = +5.,RM 5.00,R,1.1.1,TP5
+76,Operasi majmuk,111RTP631,Hitung: -15 + 20 - 8 + 5 - 2.,Kira: -15 + 20 - 8 + 5 - 2 = 0.,0,R,1.1.1,TP6
+77,Perubahan kompleks,111RTP632,"Kedudukan mula -10, naik 12, turun 5, naik 3. Apakah kedudukan akhir?",-10 + 12 - 5 + 3 = 0.,0,R,1.1.1,TP6
+78,Perbandingan kompleks,111RTP633,Bandingkan: -20 + 15 dengan -10 + 8. Yang manakah lebih besar?,-20 + 15 = -5; -10 + 8 = -2; -2 > -5.,-10 + 8,R,1.1.1,TP6

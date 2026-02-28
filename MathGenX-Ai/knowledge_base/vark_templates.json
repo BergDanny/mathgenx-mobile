@@ -1,0 +1,18 @@
+{
+  "Kinesthetic": {
+    "instruction": "The scenario MUST involve a physical, hands-on activity like cutting, mixing, walking, or sharing tangible objects. Describe the action vividly.",
+    "context_example": "A baker is dividing dough, or children are sharing a bag of marbles."
+  },
+  "Visual": {
+    "instruction": "The scenario should focus on spatial relationships, positional concepts, or visual/spatial thinking WITHOUT referencing actual images, graphs, diagrams, or charts. Use descriptive text to paint a visual picture through words - describe locations, positions, arrangements, or spatial relationships clearly so students can visualize the scenario mentally. DO NOT use phrases like 'as shown in the graph/diagram/chart' or 'in the diagram/graf yang ditunjukkan'.",
+    "context_example": "Describe positions and relationships: 'A lift is at floor -2 and another at floor +1', or 'Three locations: Mountain A at +250m, Cave B at -50m, and Bridge C at +5m. Arrange from lowest to highest.'"
+  },
+  "Auditory": {
+    "instruction": "The scenario should involve spoken context, dialogue, or sound-based measurements (e.g., time, announcements, verbal agreements).",
+    "context_example": "Referencing a conversation between two students about homework, or timing a race."
+  },
+  "Read": {
+    "instruction": "The question should be dense with text and numbers, focusing on academic definitions, rules, or detailed written instructions (like a lengthy recipe or a budget spreadsheet).",
+    "context_example": "A multi-line instruction from a fictional textbook or a complex, structured list of requirements."
+  }
+}

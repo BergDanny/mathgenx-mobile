@@ -1,0 +1,40 @@
+{
+  "name": "mathgenx-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@preline/remove-element": "^3.2.3",
+    "@tailwindcss/vite": "^4.1.14",
+    "chart.js": "^4.5.1",
+    "gsap": "^3.14.1",
+    "ky": "^1.11.0",
+    "lucide": "^0.545.0",
+    "lucide-vue-next": "^0.545.0",
+    "motion-v": "^1.7.2",
+    "ogl": "^1.0.11",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
+    "preline": "^3.2.3",
+    "sortablejs": "^1.15.6",
+    "tailwindcss": "^4.1.14",
+    "toastify-js": "^1.12.0",
+    "vue": "^3.5.22",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "@types/sortablejs": "^1.15.9",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vue-tsc": "^3.1.0"
+  }
+}

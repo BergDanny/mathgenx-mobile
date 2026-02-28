@@ -1,0 +1,255 @@
+{
+  "topic_name": "Rational Numbers (Integers, Fractions, Decimals)",
+  "topic_code": "Topic1",
+  "form_level": "Form 1",
+  "description": "Mastery levels for understanding and applying rational numbers including integers, fractions, and decimals.",
+  
+  "subtopics": {
+    "1.1": {
+      "code": "1.1",
+      "name": "Integer",
+      "description": "Positive and negative whole numbers"
+    },
+    "1.2": {
+      "code": "1.2",
+      "name": "Operasi asas aritmetik yang melibatkan integer",
+      "description": "Basic arithmetic operations with integers"
+    },
+    "1.3": {
+      "code": "1.3",
+      "name": "Pecahan positif dan pecahan negatif",
+      "description": "Positive and negative fractions"
+    },
+    "1.4": {
+      "code": "1.4",
+      "name": "Perpuluhan positif dan perpuluhan negatif",
+      "description": "Positive and negative decimals"
+    },
+    "1.5": {
+      "code": "1.5",
+      "name": "Nombor nisbah",
+      "description": "Rational numbers (complete concept)"
+    }
+  },
+  
+  "mastery_levels": {
+    "TP1": {
+      "code": "TP1",
+      "name": "Mastery Level 1",
+      "complexity": "VERY_EASY",
+      "description": "Demonstrate basic knowledge of integers, fractions, and decimals.",
+      "focus": "Basic recognition and identification of rational numbers. Understanding what integers, fractions, and decimals are.",
+      "cognitive_level": "Knowledge/Understanding",
+      "typical_operations": [
+        "Identify and name integers, fractions, decimals",
+        "Compare simple rational numbers",
+        "Convert between simple equivalent forms"
+      ],
+      "levels": {
+        "easy": {
+          "description": "Demonstrate basic knowledge of integers, fractions, and decimals with simple, straightforward examples.",
+          "focus": "Basic recognition and identification of rational numbers using very simple examples. Understanding what integers, fractions, and decimals are with minimal complexity.",
+          "typical_operations": [
+            "Identify and name simple integers, fractions, decimals",
+            "Compare very simple rational numbers (e.g., 2 vs 3, 1/2 vs 1/4)",
+            "Convert between simple equivalent forms (e.g., 0.5 = 1/2)"
+          ],
+          "complexity_modifier": "Simplified"
+        },
+        "hard": {
+          "description": "Demonstrate basic knowledge of integers, fractions, and decimals with moderately challenging examples that bridge to understanding concepts.",
+          "focus": "Basic recognition and identification of rational numbers using varied examples. Beginning to understand relationships between different forms, preparing for deeper understanding.",
+          "typical_operations": [
+            "Identify and name integers, fractions, decimals in varied contexts",
+            "Compare rational numbers with different representations (e.g., 0.75 vs 3/4, -0.5 vs -1/2)",
+            "Convert between equivalent forms with common numbers (e.g., 0.25 = 1/4, -0.5 = -1/2)"
+          ],
+          "complexity_modifier": "Challenging"
+        }
+      }
+    },
+    
+    "TP2": {
+      "code": "TP2",
+      "name": "Mastery Level 2",
+      "complexity": "EASY",
+      "description": "Demonstrate understanding of rational numbers.",
+      "focus": "Understanding the concept and properties of rational numbers. Recognize relationships between different forms.",
+      "cognitive_level": "Understanding",
+      "typical_operations": [
+        "Explain properties of rational numbers",
+        "Represent rational numbers in different forms",
+        "Order and compare rational numbers"
+      ],
+      "levels": {
+        "easy": {
+          "description": "Demonstrate understanding of rational numbers with straightforward examples, building on recognition skills.",
+          "focus": "Understanding the concept and properties of rational numbers using clear examples. Recognize relationships between different forms, extending beyond basic identification.",
+          "typical_operations": [
+            "Explain basic properties of rational numbers (e.g., ordering positive numbers, understanding equivalence)",
+            "Represent rational numbers in different forms (e.g., 0.5 = 1/2, -0.5 = -1/2)",
+            "Order and compare rational numbers on a number line including negatives"
+          ],
+          "complexity_modifier": "Simplified"
+        },
+        "hard": {
+          "description": "Demonstrate understanding of rational numbers with more complex examples that prepare for applying operations.",
+          "focus": "Understanding the concept and properties of rational numbers using varied examples. Recognize relationships between different forms, preparing to apply this understanding in calculations.",
+          "typical_operations": [
+            "Explain properties of rational numbers including negative values and ordering",
+            "Represent rational numbers in multiple forms with common numbers (e.g., 0.75 = 3/4 = 75%)",
+            "Order and compare rational numbers including negatives, fractions, and decimals on number lines"
+          ],
+          "complexity_modifier": "Challenging"
+        }
+      }
+    },
+    
+    "TP3": {
+      "code": "TP3",
+      "name": "Mastery Level 3",
+      "complexity": "MEDIUM",
+      "description": "Apply understanding of rational numbers to perform basic operations and combined basic arithmetic operations.",
+      "focus": "Performing addition, subtraction, multiplication, and division with rational numbers. Combining multiple operations.",
+      "cognitive_level": "Application",
+      "typical_operations": [
+        "Add and subtract integers, fractions, decimals",
+        "Multiply and divide rational numbers",
+        "Perform combined operations following order of operations"
+      ],
+      "levels": {
+        "easy": {
+          "description": "Apply understanding of rational numbers to perform basic operations with simple numbers, building on conceptual understanding.",
+          "focus": "Performing addition, subtraction, multiplication, and division with rational numbers using straightforward examples. Combining two operations with simple numbers, applying understanding of number properties.",
+          "typical_operations": [
+            "Add and subtract integers, simple fractions, and decimals (e.g., 5 + 3, 1/2 + 1/4, 0.5 + 0.3, -2 + 5)",
+            "Multiply and divide rational numbers with simple values (e.g., 4 × 2, 1/2 × 1/4)",
+            "Perform combined operations with two steps following order of operations (e.g., 5 + 3 × 2)"
+          ],
+          "complexity_modifier": "Simplified"
+        },
+        "hard": {
+          "description": "Apply understanding of rational numbers to perform basic operations with more complex numbers, preparing for word problems.",
+          "focus": "Performing addition, subtraction, multiplication, and division with rational numbers using varied examples. Combining multiple operations with mixed numbers, preparing to apply these skills in contextual problems.",
+          "typical_operations": [
+            "Add and subtract integers, fractions, decimals with moderate numbers including negatives (e.g., -5 + 8, 3/4 - 1/2, -0.5 + 0.75)",
+            "Multiply and divide rational numbers with mixed representations (e.g., -2 × 1/4, 0.5 ÷ 1/4)",
+            "Perform combined operations with 2-3 steps following order of operations (e.g., 5 + 3 × 2 - 1, -4 + 2 × 3)"
+          ],
+          "complexity_modifier": "Challenging"
+        }
+      }
+    },
+    
+    "TP4": {
+      "code": "TP4",
+      "name": "Mastery Level 4",
+      "complexity": "MEDIUM_HARD",
+      "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving simple routine problems.",
+      "focus": "Using rational numbers to solve straightforward, familiar word problems with clear solution paths.",
+      "cognitive_level": "Application in Context",
+      "typical_operations": [
+        "Solve simple word problems involving money, measurements",
+        "Apply rational number operations in everyday contexts",
+        "Solve problems with one or two clear steps"
+      ],
+      "levels": {
+        "easy": {
+          "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving very simple routine problems, using operational skills in real contexts.",
+          "focus": "Using rational numbers to solve straightforward, familiar word problems with very clear solution paths. Applying basic operations in simple, everyday contexts.",
+          "typical_operations": [
+            "Solve simple word problems involving money or measurements with one operation (e.g., total cost, simple conversion)",
+            "Apply rational number operations in everyday contexts with positive numbers (e.g., sharing items, simple calculations)",
+            "Solve problems with one clear step requiring basic addition, subtraction, multiplication, or division"
+          ],
+          "complexity_modifier": "Simplified"
+        },
+        "hard": {
+          "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving routine problems with increased complexity, preparing for multi-step problems.",
+          "focus": "Using rational numbers to solve straightforward, familiar word problems with clearer solution paths involving 2-3 operations. Beginning to combine multiple concepts in problem-solving.",
+          "typical_operations": [
+            "Solve word problems involving money, measurements with 2-3 operations (e.g., finding change, calculating totals with discounts)",
+            "Apply rational number operations in everyday contexts including negative values (e.g., temperature changes, account balances)",
+            "Solve problems with two clear steps requiring basic planning (e.g., finding total after multiple transactions)"
+          ],
+          "complexity_modifier": "Challenging"
+        }
+      }
+    },
+    
+    "TP5": {
+      "code": "TP5",
+      "name": "Mastery Level 5",
+      "complexity": "HARD",
+      "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving complex routine problems.",
+      "focus": "Solving multi-step routine problems that require planning and combining multiple concepts.",
+      "cognitive_level": "Higher Application",
+      "typical_operations": [
+        "Solve multi-step word problems",
+        "Combine different operations strategically",
+        "Apply rational numbers in complex but familiar scenarios"
+      ],
+      "levels": {
+        "easy": {
+          "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving moderately complex routine problems, building on two-step problem solving.",
+          "focus": "Solving multi-step routine problems that require basic planning and combining two to three concepts. Extending from simple word problems to more structured multi-step scenarios.",
+          "typical_operations": [
+            "Solve multi-step word problems with 3-4 clear steps (e.g., calculating total cost with tax, multi-part measurements)",
+            "Combine different operations strategically with positive numbers and simple negatives",
+            "Apply rational numbers in familiar scenarios requiring sequential calculations (e.g., budget planning, recipe scaling)"
+          ],
+          "complexity_modifier": "Simplified"
+        },
+        "hard": {
+          "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving highly complex routine problems, preparing for non-routine challenges.",
+          "focus": "Solving multi-step routine problems that require strategic planning and combining multiple concepts. Developing problem-solving strategies that can be adapted to unfamiliar situations.",
+          "typical_operations": [
+            "Solve multi-step word problems with 4-5 steps requiring strategic planning and decision-making",
+            "Combine different operations strategically with mixed positive and negative numbers in complex contexts",
+            "Apply rational numbers in complex but familiar scenarios requiring careful reasoning and multiple calculation steps"
+          ],
+          "complexity_modifier": "Challenging"
+        }
+      }
+    },
+    
+    "TP6": {
+      "code": "TP6",
+      "name": "Mastery Level 6",
+      "complexity": "VERY_HARD",
+      "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving non-routine problems.",
+      "focus": "Solving unfamiliar, non-standard problems requiring creative thinking and strategy development.",
+      "cognitive_level": "Analysis/Synthesis",
+      "typical_operations": [
+        "Solve problems requiring novel approaches",
+        "Create and justify solution strategies",
+        "Apply knowledge in unfamiliar or abstract contexts",
+        "Solve problems requiring mathematical reasoning and proof"
+      ],
+      "levels": {
+        "easy": {
+          "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving non-routine problems with some guidance, building on complex routine problem-solving.",
+          "focus": "Solving unfamiliar, non-standard problems requiring creative thinking with some structure. Transitioning from routine multi-step problems to problems requiring novel approaches.",
+          "typical_operations": [
+            "Solve problems requiring novel approaches with some contextual clues or familiar elements",
+            "Create and justify solution strategies for moderately unfamiliar scenarios using known problem-solving techniques",
+            "Apply knowledge in unfamiliar contexts that share some characteristics with familiar problems",
+            "Solve problems requiring mathematical reasoning with guided exploration and strategic thinking"
+          ],
+          "complexity_modifier": "Simplified"
+        },
+        "hard": {
+          "description": "Apply appropriate knowledge and skills about rational numbers in the context of solving highly non-routine problems requiring independent creative thinking.",
+          "focus": "Solving unfamiliar, non-standard problems requiring advanced creative thinking and independent strategy development. Highest level of mathematical reasoning and problem-solving with rational numbers.",
+          "typical_operations": [
+            "Solve problems requiring novel approaches with minimal guidance, developing unique solution paths",
+            "Create and justify solution strategies for highly unfamiliar or abstract scenarios independently",
+            "Apply knowledge in completely unfamiliar or abstract contexts requiring deep mathematical insight",
+            "Solve problems requiring advanced mathematical reasoning, proof, and complex rational number relationships"
+          ],
+          "complexity_modifier": "Challenging"
+        }
+      }
+    }
+  }
+}

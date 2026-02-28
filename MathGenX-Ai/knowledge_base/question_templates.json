@@ -1,0 +1,258 @@
+{
+  "system_role": "You are a highly skilled math teacher writing multiple-choice questions for Form 1 students in Malaysia.",
+  "base_task": "Your task is to generate ONE personalized question that STRICTLY FOLLOWS ALL constraints provided in the [CONTEXTUAL GUIDANCE] below.",
+  
+  "output_format": {
+    "multiple_choice": {
+      "description": "Standard MCQ format",
+      "answer_choices": "4 answer choices labeled A-D",
+      "answer_format": "Include the correct answer on the next line: \"Answer: X\" (where X is A, B, C, or D)",
+      "structure": "Question + 4 choices + Answer key"
+    },
+    "subjective": {
+      "description": "Subjective format with working steps and final answer",
+      "answer_format": "Provide step-by-step working and final answer with marking scheme",
+      "structure": "Question + Step-by-step Working + Final Answer + Mark Scheme",
+      "requirements": "Show clear working steps that lead to the final answer, suitable for validation"
+    },
+    "language_level": "Use simple, clear language suitable for 13-year-old students",
+    "notation_rules": "If fractions are used, write them like \"3/4\". Do not use LaTeX or special characters."
+  },
+
+  "topics": {
+    "Topic1": {
+      "topic_name": "Rational Numbers (Integers, Fractions, Decimals)",
+      "topic_code": "1",
+      "general_instructions": "Focus on integers, fractions, and decimals operations and real-world applications.",
+      "notation_guide": "Write fractions as \"3/4\", decimals as \"0.5\", integers with sign when negative \"-5\".",
+      "common_contexts": ["sharing food", "money transactions", "temperature", "measurements", "scoring"],
+      
+      "subtopics": {
+        "1.1": {
+          "code": "1.1",
+          "name": "Integer",
+          "description": "Positive and negative whole numbers",
+          "focus": "Understanding integers, number line representation, comparison",
+          "notation_guide": "Use standard integer notation. Clearly indicate negative numbers with minus sign.",
+          "common_contexts": ["temperature changes", "elevation/depth", "bank transactions", "score changes"],
+          "difficulty_specific": {
+            "Beginner": {
+              "question_types": [
+                "Addition of two integers (same sign)",
+                "Subtraction involving small integers",
+                "Identifying integers on a number line",
+                "Comparing and ordering integers"
+              ],
+              "range": "-20 to +20",
+              "steps": "single-step"
+            },
+            "Proficient": {
+              "question_types": [
+                "Addition and subtraction with different signs",
+                "Multi-step problems with integers",
+                "Word problems involving gains and losses",
+                "Integer operations in real-world contexts"
+              ],
+              "range": "-100 to +100",
+              "steps": "multi-step"
+            },
+            "Advanced": {
+              "question_types": [
+                "Multiplication and division of integers",
+                "Combined operations with order of operations",
+                "Complex word problems with multiple integer operations",
+                "Integer problems with patterns and sequences"
+              ],
+              "range": "any reasonable range",
+              "steps": "multi-step with complex reasoning"
+            }
+          },
+          "example_questions": {
+            "Beginner": "The temperature in Cameron Highlands was 15°C in the morning. It dropped by 3°C in the evening. What was the temperature in the evening?",
+            "Proficient": "Ahmad deposited RM150 into his bank account, then withdrew RM75, and later deposited another RM50. What is the net change in his account?",
+            "Advanced": "A submarine was at a depth of -120 meters. It rose 45 meters, then descended 30 meters. What is its final depth?"
+          }
+        },
+        "1.2": {
+          "code": "1.2",
+          "name": "Basic arithmetic operations with integers",
+          "description": "Basic arithmetic operations with integers",
+          "focus": "Addition, subtraction, multiplication, division of integers with emphasis on operation rules",
+          "notation_guide": "Show clear operation signs, use brackets when needed for order of operations.",
+          "common_contexts": ["score calculations", "financial transactions", "temperature changes", "multi-step problems"],
+          "difficulty_specific": {
+            "Beginner": {
+              "question_types": [
+                "Simple addition: positive + positive, negative + negative",
+                "Simple subtraction with small numbers",
+                "Understanding operation rules"
+              ],
+              "range": "-20 to +20",
+              "steps": "single operation"
+            },
+            "Proficient": {
+              "question_types": [
+                "Mixed operations: positive ± negative",
+                "Two-step calculations",
+                "Word problems with one or two operations",
+                "Basic order of operations"
+              ],
+              "range": "-100 to +100",
+              "steps": "2-3 operations"
+            },
+            "Advanced": {
+              "question_types": [
+                "Multiplication and division of integers",
+                "Combined operations with BODMAS/PEMDAS",
+                "Complex multi-step word problems",
+                "Problems with brackets and multiple operations"
+              ],
+              "range": "any reasonable range",
+              "steps": "multi-step with planning required"
+            }
+          },
+          "example_questions": {
+            "Beginner": "Calculate: 5 + (-3)",
+            "Proficient": "Calculate: -8 + 12 - 5",
+            "Advanced": "Calculate: (-4) × 3 + 15 ÷ (-3)"
+          }
+        },
+        "1.3": {
+          "code": "1.3",
+          "name": "Positive and negative fractions",
+          "description": "Positive and negative fractions",
+          "focus": "Understanding fractions, equivalent fractions, operations with fractions",
+          "notation_guide": "Write fractions as \"3/4\", clearly show numerator and denominator. Use proper/improper forms as needed.",
+          "common_contexts": ["sharing food", "measurements in cooking", "dividing objects", "part-whole relationships"],
+          "difficulty_specific": {
+            "Beginner": {
+              "question_types": [
+                "Identifying proper and improper fractions",
+                "Equivalent fractions with simple numbers",
+                "Comparing fractions with same denominator",
+                "Simple fraction visualization"
+              ],
+              "denominator_range": "2-12",
+              "steps": "single-step"
+            },
+            "Proficient": {
+              "question_types": [
+                "Adding/subtracting fractions with different denominators",
+                "Simplifying fractions",
+                "Mixed number operations",
+                "Word problems with fractions"
+              ],
+              "denominator_range": "2-20",
+              "steps": "multi-step"
+            },
+            "Advanced": {
+              "question_types": [
+                "Multiplying and dividing fractions",
+                "Complex operations with mixed numbers",
+                "Multi-step word problems",
+                "Negative fractions in operations"
+              ],
+              "denominator_range": "any reasonable range",
+              "steps": "multi-step with conversions"
+            }
+          },
+          "example_questions": {
+            "Beginner": "Which is larger: 2/5 or 3/5?",
+            "Proficient": "Calculate: 3/4 + 1/3",
+            "Advanced": "Siti had 2 1/2 kg of flour. She used 3/4 kg for cookies and 1/3 kg for cake. How much flour is left?"
+          }
+        },
+        "1.4": {
+          "code": "1.4",
+          "name": "Positive and negative decimals",
+          "description": "Positive and negative decimals",
+          "focus": "Understanding decimals, place value, operations with decimals",
+          "notation_guide": "Write decimals as \"0.5\", show decimal point clearly. Use consistent decimal places.",
+          "common_contexts": ["money calculations", "measurements", "time", "distance"],
+          "difficulty_specific": {
+            "Beginner": {
+              "question_types": [
+                "Identifying place value in decimals",
+                "Comparing decimals with same decimal places",
+                "Adding decimals with tenths only",
+                "Converting simple fractions to decimals"
+              ],
+              "decimal_places": "1-2",
+              "steps": "single-step"
+            },
+            "Proficient": {
+              "question_types": [
+                "Adding/subtracting decimals with different places",
+                "Rounding decimals",
+                "Word problems with money or measurements",
+                "Converting between fractions and decimals"
+              ],
+              "decimal_places": "1-3",
+              "steps": "multi-step"
+            },
+            "Advanced": {
+              "question_types": [
+                "Multiplying and dividing decimals",
+                "Complex word problems with multiple operations",
+                "Negative decimals in calculations",
+                "Real-world applications requiring precision"
+              ],
+              "decimal_places": "any reasonable precision",
+              "steps": "multi-step with conversions"
+            }
+          },
+          "example_questions": {
+            "Beginner": "Which is larger: 0.7 or 0.5?",
+            "Proficient": "Calculate: 3.5 + 2.75 - 1.2",
+            "Advanced": "A rope 5.5 m long is cut into 4 equal pieces. What is the length of each piece?"
+          }
+        },
+        "1.5": {
+          "code": "1.5",
+          "name": "Rational numbers",
+          "description": "Rational numbers (complete concept)",
+          "focus": "All rational numbers including conversions between forms (integers, fractions, decimals)",
+          "notation_guide": "Use appropriate notation for integers, fractions, or decimals. Show conversions clearly.",
+          "common_contexts": ["mixed real-world problems", "measurement conversions", "complex calculations", "multi-concept problems"],
+          "difficulty_specific": {
+            "Beginner": {
+              "question_types": [
+                "Identifying types of rational numbers",
+                "Simple conversions: 1/2 = 0.5",
+                "Comparing mixed forms",
+                "Ordering different types of rational numbers"
+              ],
+              "complexity": "basic recognition and simple conversions",
+              "steps": "1-2 steps"
+            },
+            "Proficient": {
+              "question_types": [
+                "Converting between all three forms",
+                "Operations mixing integers, fractions, decimals",
+                "Word problems requiring multiple concepts",
+                "Finding equivalent forms"
+              ],
+              "complexity": "mixed operations",
+              "steps": "multi-step"
+            },
+            "Advanced": {
+              "question_types": [
+                "Complex problems requiring strategic conversions",
+                "Multi-step problems with all three forms",
+                "Non-routine problems requiring planning",
+                "Real-world scenarios with mixed rational numbers"
+              ],
+              "complexity": "requires strategic thinking",
+              "steps": "multi-step with decision-making"
+            }
+          },
+          "example_questions": {
+            "Beginner": "Convert 3/4 to a decimal.",
+            "Proficient": "Which is largest: 0.6, 2/3, or 1/2?",
+            "Advanced": "A water tank is 2/3 full. After using 30 liters, it becomes 0.5 full. What is the tank's total capacity?"
+          }
+        }
+      }
+    }
+  }
+}
